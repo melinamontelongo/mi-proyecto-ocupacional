@@ -2,7 +2,7 @@
 
 *, html, .btn{
    cursor: url(/img/cursor.png), default;
-   cursor: url(/img/cursor.png), pointer;
+   
 }
 .card-img-top{
    width: 15rem;
