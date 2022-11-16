@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cookie&family=Silkscreen&display=swap');
+
+.card-img-top{
+   width: 15rem;
+   height: 15rem;
+   object-fit: cover;
+
+}
+
+body h1 {
+   font-family: 'Cookie', cursive;
+   font-size: 4rem;
+   color: #f89f9b;
+}
+h3{
+   font-family: 'Cookie', cursive;
+   font-size: 2rem;
+}
+li{
+   font-size: 1rem;
+   font-family: 'Silkscreen', monospace;
+}
+.card-body h5 {
+   font-size: 2rem;
+   font-family: 'Amatic SC', cursive;
+   
+}
+
+.redirect-link .card:hover{
+background-image: linear-gradient(to left, #f89f9b, #f6978a, #f29078, #ed8965, #e58452);
+   transform: scale(1.2);
+   transition: transform .8s ease, opacity .5s ease-out;
+   z-index: 1
+}
+
+ body .card {
+   overflow: hidden;
+background-image: linear-gradient(to right, #f89f9b, #f6978a, #f29078, #ed8965, #e58452);
+background-origin: border-box;
+background-clip: content-box, border-box;
+}
+
+.btn-primary{
+background-image: linear-gradient(to right, #f89f9b, #f6978a, #f29078, #ed8965, #e58452);
+   border: none;
+   font-size: 1rem;
+   font-family: 'Silkscreen', monospace;
+}
+
+.btn-primary:hover{
+background-image: linear-gradient(to left, #f89f9b, #f6978a, #f29078, #ed8965, #e58452);
+}
+
+.imagenTopic{
+   border-radius: 5%;
+}
+
+ .bottomGif{
+   width: 5rem;
+   height: 5rem;
+   object-fit:scale-down;
+} 
+
+.rotateGif{
+   transform: scaleX(-1);
+}
+
+.gradientBg{
+background-image: linear-gradient(to right, #f89f9b, #f6978a, #f29078, #ed8965, #e58452);
+border-radius: 100%;
+}
+
+footer p{
+   font-family: 'Silkscreen', monospace;
+}
