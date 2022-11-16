@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cookie&family=Silkscreen&display=swap');
 
 *, html{
-   cursor: url(/img/cursor.png), default;
-   cursor: url(/img/cursor.png), pointer;
+   cursor: url(img/cursor.png), default;
+   cursor: url(img/cursor.png), pointer;
 }
 .card-img-top{
    width: 15rem;
